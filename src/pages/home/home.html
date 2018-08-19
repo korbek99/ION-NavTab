@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar color="morado">
+    <ion-title>Home</ion-title>
+
+    
+    <ion-buttons>
+      <button ion-button  
+        icon-only 
+      (click)="mostrarMenu()">
+       <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Welcome to Ionic!</h2>
+    <button ion-button  block color="primay"  (click)="navegarPagina()">Ir Pagina 2</button>
+   <button ion-button  block color="secondary"  [navPush]="pagina2">Ir Pagina 2 HTML</button>
+
+</ion-content>

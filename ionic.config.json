@@ -1,0 +1,7 @@
+{
+  "name": "navegaciontab",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
